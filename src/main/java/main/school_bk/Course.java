@@ -53,9 +53,13 @@ public class Course {
         this.numberOfClasses = customNumberOfClasses;
     }
     
+     public void courseInfo() {
+        System.out.println("Ime Kursa:" + this.getName());
+        System.out.println("Oznaka kursa:" + this.getCodeName());
+        System.out.println("Broj casova:" + this.getNumberOfClasses());
     
-
-    
+    }
+ 
     
     
 }
